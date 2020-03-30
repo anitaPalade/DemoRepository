@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="border">
+            <h1>Registration Form</h1>
+        <form class="form" method="post" name="registration_form" id="form_id" >
+            <input type="text" name="first_name" placeholder="Firstname" required><br>
+            <input type="text" name="last_name" placeholder="Lastname" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="text" name="mobile_number" placeholder="Mobile Number" required><br>
+            <input type="password" name="password" placeholder="Password" required ><br>
+            <input type="password" name="reenter_password" placeholder="Confirm Password" required><br>
+           <input class="submit_button" type="submit" value="Submit" onclick="validate()">
+        </form>
+        </div>    
+        
+            <script src="main.js">
+            </script>
+        
+    </body>
+</html>
