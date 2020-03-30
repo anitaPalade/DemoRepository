@@ -1,0 +1,37 @@
+.bg-img {
+  background-image: url("background.jpg");
+  min-height: 380px
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.form{
+    font-size: 20px;
+    margin-top: 5%;
+}
+.first_Name,.last_Name,.email,.mob_number,.password,.confirm_password,.submit{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.submit{
+    width: 100%;
+    font-size: 25px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
